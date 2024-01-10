@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dateInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inputDate {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+.inputDate:hover {
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.87);
+}
+
+.card {
+  padding: 2em;
+}
